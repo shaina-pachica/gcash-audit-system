@@ -3,8 +3,8 @@ name: Deploy to Firebase Hosting on merge
 on:
   push:
     branches:
-      - main   # Change to 'dev' if you want staging deployment
-
+      - main  
+      - dev
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
